@@ -1,6 +1,6 @@
 # WANGKAS
 
-Aplikasi pendataan uang kas dibuat dengan Framework Laravel 10. Dengan sistem pembayaran kas sekali selama seminggu. Aplikasi ini cocok untuk digunakan untuk di sekolah atau masing masing kelas. <br>
+Aplikasi pendataan uang kas dibuat dengan Framework Laravel 10. Dengan sistem pembayaran kas sekali selama seminggu. <br>
 
 Beberapa CRUD menggunakan modal dan AJAX untuk pengambilan data agar mengurangi penggunaan pindah halaman. Dan seluruh menu menggunakan DataTable Server Side Processing.
 
@@ -62,13 +62,7 @@ _Logout_
 HTTPS
 
 ```
-https://github.com/mrizkimaulidan/wangkas.git
-```
-
-SSH
-
-```
-git@github.com:mrizkimaulidan/wangkas.git
+https://github.com/Frasetiaa/Uangkas.git
 ```
 
 -   Install seluruh packages yang dibutuhkan
@@ -77,7 +71,7 @@ git@github.com:mrizkimaulidan/wangkas.git
 composer install
 ```
 
--   Siapkan database dan atur file .env sesuai dengan konfigurasi Anda
+-   Siapkan database dan atur file .env sesuai dengan database Anda
 -   Ubah value APP_NAME= pada file .env menjadi nama aplikasi yang anda inginkan
 -   Jika sudah, migrate seluruh migrasi dan seeding data
 
@@ -89,6 +83,11 @@ php artisan migrate --seed
 
 ```bash
 php artisan optimize
+```
+
+-   Ketik perintah ini untuk memunculkan key
+```bash
+php artisan key:generate
 ```
 
 -   Jalankan local server
@@ -117,14 +116,6 @@ Password    : secret
 
 - [Laravel](https://laravel.com/) - Backend Framework
 - [Bootstrap](https://getbootstrap.com/) - Frontend Framework
-
-### Kontribusi
-
-Silahkan request melalui kolom `Pull Requests` jika ingin melakukan kontribusi
-
-### Pembuat
-
--   **Muhammad Rizki Maulidan**  - [mrizkimaulidan](https://github.com/mrizkimaulidan)
 
 ### Lisensi
 
