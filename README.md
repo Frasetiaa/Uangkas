@@ -1,4 +1,4 @@
-# WANGKAS
+# UANGKAS
 
 Aplikasi pendataan uang kas dibuat dengan Framework Laravel 10. Dengan sistem pembayaran kas sekali selama seminggu. <br>
 
